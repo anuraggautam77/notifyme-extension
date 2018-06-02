@@ -1,12 +1,19 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 2,
     "version": "1.0.0",
 
-    "name": "NotifyMe",
-    "description": "A simple Example of !",
-
+    "name": "Marlboro",
+    "description": "A simple Example of!",
+	 "icons": {
+    "16": "img/16.png",
+    "32": "img/32.png",
+    "48": "img/48.png",
+    "128": "img/128.png"
+  },
+	
+	
     "browser_action": {
         "default_popup": "index.html"
     },
-    "permissions": ["tabs", "storage"]
+    "permissions": ["alarms", "notifications", "storage"]
 }
