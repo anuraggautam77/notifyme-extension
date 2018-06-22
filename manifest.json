@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "version": "1.0.0",
 
-    "name": "Marlboro",
+    "name": "Extension",
     "description": "A simple Example of!",
 	 "icons": {
     "16": "img/16.png",
